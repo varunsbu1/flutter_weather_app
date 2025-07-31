@@ -1,16 +1,44 @@
-# weatherapp
+# 🌤️ Flutter Weather App
 
-A new Flutter project.
+A modern weather forecast app built with **Flutter** and **Dart**, using the **OpenWeatherMap API**. It features real-time weather data, hourly forecasting, and detailed metrics like humidity, pressure, and wind speed — all presented in a clean, card-based UI.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🚀 Features
 
-A few resources to get you started if this is your first Flutter project:
+- 🔍 **Search weather by city**
+- 🌡️ **Current temperature and weather conditions**
+- ⏱️ **Hourly weather forecast**
+- 💧 **Humidity, pressure, and wind speed indicators**
+- 🧩 **Modular UI using custom widgets (e.g., Cards, Lists)**
+- 🌐 **Data fetched from OpenWeatherMap API**
+- 📱 **Responsive and user-friendly design**
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🧰 Tech Stack
+
+- **Flutter** — cross-platform UI framework
+- **Dart** — programming language
+- **OpenWeatherMap API** — weather data
+- **HTTP package** — for REST API requests
+- **State Management:** *Riverpod* and *Provider*
+
+---
+
+## ▶️ Getting Started
+
+### 🔧 Prerequisites
+
+- Flutter SDK installed
+- A valid API key from [OpenWeatherMap](https://openweathermap.org/api)
+- Android Studio / VS Code
+- Internet connection
+
+### 🔑 Set up your API Key
+
+> Replace `YOUR_API_KEY` with your actual API key in the app:
+
+```dart
+const String apiKey = "YOUR_API_KEY";
+ 
