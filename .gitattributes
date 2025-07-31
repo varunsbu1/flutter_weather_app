@@ -1,0 +1,9 @@
+# Ignore iOS native code
+ios/** linguist-vendored
+
+# Ignore Android native code
+android/** linguist-vendored
+
+# Ignore build directories
+**/build/** linguist-vendored
+.dart_tool/** linguist-vendored
